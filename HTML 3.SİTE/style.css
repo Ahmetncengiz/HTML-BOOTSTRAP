@@ -1,0 +1,369 @@
+.container {
+    box-sizing: border-box;
+    background-color: rgb(223, 221, 221);
+    width: 1200px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container p {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.logolar p {
+    background-color: rgb(246, 255, 125);
+}
+
+.container ul {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 38px;
+    cursor: pointer;
+}
+
+.container ul li {
+    display: inline;
+    padding: 15px;
+}
+
+.logolar ul li select {
+    border: none;
+    background-color: transparent;
+}
+
+.logolar ul li:hover {
+    color: rgb(229, 255, 0);
+}
+
+
+.logolar button:hover {
+    color: blue;
+}
+
+.logolar button {
+    border: solid 1px;
+    margin-left: 450px;
+    padding: 14px;
+    border-radius: 5px;
+    background-color: rgb(105, 103, 103);
+    cursor: pointer;
+}
+
+.logolar img {
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.logolar img:hover {
+    background-color: rgb(4, 0, 255);
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.yazı p {
+    text-align: center;
+    margin-left: 200px;
+    bottom: 420px;
+    right: 200px;
+}
+
+
+
+
+.button1 select {
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -510px;
+}
+
+.aramanoktası select {
+    border: none;
+    background-color: transparent;
+}
+
+.aramanoktası input {
+    margin-left: 300px;
+    margin-right: auto;
+    width: 500px;
+    height: 35px;
+    margin-top: 50px;
+}
+
+.button1 i {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.yazilar2 ul {
+    padding: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.yazilar2 ul li span {
+    color: red;
+}
+
+.yazilar2 ul li em {
+    color: blue;
+}
+
+.yazilar2 ul li:hover {
+    color: rgb(29, 44, 255);
+}
+
+.yazilar2 i {
+    padding: 1px;
+    cursor: pointer;
+    margin-right: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.yazilar2 i:hover {
+    color: aqua;
+}
+
+.yazilar2 span i {
+    box-sizing: border-box;
+    margin-left: 650px;
+    padding: 15px;
+}
+
+.yazilar2 span i:hover {
+    color: aqua;
+}
+
+
+
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1 {
+    align-items: flex-start;
+    background-color: rgb(255, 56, 56);
+    width: 280px;
+    height: 350px;
+}
+
+.box2 {
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 56, 56);
+    width: 280px;
+    height: 350px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.137);
+}
+
+.box3 {
+    align-items: flex-end;
+    justify-content: end;
+    background-color: rgb(255, 56, 56);
+    width: 280px;
+    height: 350px;
+}
+
+
+
+
+.box1 h2 {
+    margin-top: -20px;
+    margin-left: 170px;
+}
+
+.box2 h3 {
+    margin-top: -20px;
+    margin-left: 200px;
+}
+
+.box3 h4 {
+    margin-top: -25px;
+    margin-left: 230px;
+    font-weight: bold;
+}
+
+
+
+.box1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
+
+.box2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.box3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+
+.box1 nav {
+    text-align: center;
+    padding: 10px;
+    color: darkgrey;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.box2 nav {
+    color: darkgray;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.box3 nav {
+    color: darkgray;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+.box1 span {
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+.box2 span {
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+.box3 span {
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+
+.box1 span:hover {
+    color: yellow;
+}
+
+.box2 span:hover {
+    color: yellow;
+}
+
+.box3 span:hover {
+    color: yellow;
+}
+
+
+.box1 .kilit i {
+    margin-top: 10px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.box2 .kilit i {
+    margin-top: 10px;
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+.box3 .kilit i {
+    margin-top: 10px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+
+
+.footer {
+    display: flex;
+}
+
+.footer span {
+    text-decoration: underline;
+    align-items: flex-start;
+    margin-top: 80px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.footer span:hover {
+    color: rgb(173, 113, 0);
+}
+
+.footer .logo3 {
+    margin-top: 70px;
+    margin-left: 55px;
+}
+
+.footer .logo3 img {
+    width: 100px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.button .button1 {
+    margin-left: 220px;
+    margin-top: 75px;
+    padding: 10px;
+    border-radius: 20px #fff;
+    cursor: pointer;
+    width: 150px;
+}
+
+.sagtaraf nav {
+    margin-left: 360px;
+    margin-top: 120px;
+}
+
+.sagtaraf p {
+    background-color: darkgray;
+    color: dimgray;
+    margin-left: 220px;
+    margin-top: 90px;
+}
+
+.sagtaraf i {
+    border: 1px solid dimgray;
+    padding: 10px;
+}
+
+.sagtaraf span {
+    border: 1px solid dimgray;
+    padding: 10px;
+    margin-left: -5px;
+}
+
+.sagtaraf span:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.sagtaraf i:hover {
+    background-color: rgb(255, 234, 116);
+}
